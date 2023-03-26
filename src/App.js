@@ -24,6 +24,7 @@ const App = () => {
         <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
           <Box sx={{ display: { xs: 'none', sm: 'block' }, height: 64 }} />
           <Routes>
+            <Route path="/" element={<Customers />} />
             <Route path="/customers" element={<Customers />} />
             <Route path="/trainings" element={<Trainings />} />
             <Route path="/calendar" element={<Calendar />} />

@@ -28,7 +28,7 @@ const Header = ({ onMenuClick, drawerOpen }) => {
                     <MenuIcon />
                 </IconButton>
                 <Typography variant="h6" noWrap>
-                    My App
+                    Personal-Trainer
                 </Typography>
             </Toolbar>
         </AppBar>

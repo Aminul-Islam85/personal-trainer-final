@@ -13,7 +13,7 @@ const Customers = () => {
 
 
 
-    const columns = ['Actions', 'firstname', 'lastname', 'streetaddress', 'postcode', 'city', 'email', 'phone'];
+    const columns = ['firstname', 'lastname', 'streetaddress', 'postcode', 'city', 'email', 'phone'];
 
     const options = {
         responsive: 'standard',
